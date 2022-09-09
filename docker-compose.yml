@@ -12,5 +12,5 @@ services:
       - ./config:/opt/config
     # 映射端口
     ports:
-      - 8080:8080
+      - 7080:8080
     restart: unless-stopped
